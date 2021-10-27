@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{%block body%} 
+
+<h1>Muestreo</h1>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" href="{{url_for('entle')}}">Entrada y Lenguaje</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{url_for('est')}}">Estadisticas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="{{url_for('mues')}}">Muestreo</a>
+      </li>
+    <h1>Aqui se muestran los resultados en la siguiente grafica</h1>
+  </ul>
+<br>
+    {% endblock %}

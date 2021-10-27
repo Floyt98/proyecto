@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block body %} 
+
+
+<h1>Entrada y Lenguaje</h1>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Entrada y Lenguaje</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{url_for('est')}}">Estadisticas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{url_for('mues')}}">Muestreo</a>
+      </li>
+    
+  </ul>
+<br>
+
+
+<form> 
+    <div class="form-group">
+        <label for="exampleFormControlFile1"></label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+</form>
+<br>
+<!--Formulario-->
+<form class="form-inline">
+    <label class="mr-2" for="inlineFormCustomSelectPref">Tipo de Ngramas</label>
+    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
+      <option selected>Seleccionar...</option>
+      <option value="1">Caracter</option>
+      <option value="2">Palabra</option>
+      <option value="3">Etiqueta POS</option>
+    </select>
+  </form>
+<br>
+
+<form class="form-inline">
+    <label class="mr-2" for="inlineFormCustomSelectPref">Longitud de Ngramas</label>
+    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>Seleccionar...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </form>
+<br>
+
+<form class="form-inline">
+    <label class="mr-2" for="inlineFormCustomSelectPref">Tamaño de muestra</label>
+    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>Seleccionar...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </form>
+<br>
+
+<form class="form-inline">
+    <label class="mr-2" for="inlineFormCustomSelectPref">Frecuencia</label>
+    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>Seleccionar...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </form>
+        <br>
+        
+<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Iniciar</a>
+</form>    
+
+{% endblock %}  
