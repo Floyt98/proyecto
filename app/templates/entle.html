@@ -16,8 +16,6 @@
       </li>
     
   </ul>
-<br>
-
 
 <form> 
     <div class="form-group">
@@ -25,71 +23,64 @@
         <input type="file" class="form-control-file" id="exampleFormControlFile1">
     </div>
 </form>
-<br>
+
 <!--Formulario-->
-<form class="form-inline">
-    <label class="mr-2" for="inlineFormCustomSelectPref">Tipo de Ngramas</label>
-    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
-      <option selected>Seleccionar...</option>
-      <option value="1">Caracter</option>
-      <option value="2">Palabra</option>
-      <option value="3">Etiqueta POS</option>
+<form>
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">Tipo de Ngramas</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Caracter</option>
+      <option>Palabra</option>
+      <option>Etiqueta POS</option>
     </select>
-  </form>
-<br>
-
-<form class="form-inline">
-    <label class="mr-2" for="inlineFormCustomSelectPref">Longitud de Ngramas</label>
-    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
-                <option selected>Seleccionar...</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-            </select>
-        </form>
-<br>
-
-<form class="form-inline">
-    <label class="mr-2" for="inlineFormCustomSelectPref">Tamaño de muestra</label>
-    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
-                <option selected>Seleccionar...</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-            </select>
-        </form>
-<br>
-
-<form class="form-inline">
-    <label class="mr-2" for="inlineFormCustomSelectPref">Frecuencia</label>
-    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectPref">
-                <option selected>Seleccionar...</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-            </select>
-        </form>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Longitud de Ngramas</label>
+    <select class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect3">Tamaño de muestra</label>
+    <select class="form-control" id="exampleFormControlSelect3">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect3">Frecuencia</label>
+    <select class="form-control" id="exampleFormControlSelect3">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+    </select>
+  </div>
+</form>
         <br>
         
 <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Iniciar</a>
+
 </form>    
 
 {% endblock %}  
